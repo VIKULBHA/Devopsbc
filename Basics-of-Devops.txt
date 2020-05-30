@@ -1,0 +1,28 @@
+Starting commands
+1. to know where you are   pwd
+2. to go to the specific folder  cd foldername
+3. to come out of a directory and go to start cd ..
+4. creating a file touch filename.ext
+5. Creating a Folder mkdir foldername
+6. adding a file to the directory git add . and then git commit -m 'any text to explain changes'  
+7. initialising repository  git init
+8. to delete a file git rm filename.ext  and then git commit -m 'expalining deletion'
+
+Github:
+To push files to Github
+1. adding remote   git remote add origin github url
+1. git init
+2. git remote -v
+3. git push origin master
+4. git add .
+5. git commit -m 'explain the addition'
+
+Git cloning
+for cloning we need to add upstream
+ 1. git remote add upstream githuburl
+ 2. git pull upstream master
+
+ Git Branches
+ 1. creating a branch and switch to it in one command git checkout -b branchname
+ 2. doing it separately git branch branchname     and  git checkout branchname
+
