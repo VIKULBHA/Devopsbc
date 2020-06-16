@@ -1,0 +1,33 @@
+#Syntax for variables
+# VAR_NAME = EXPR
+a = 1
+b = 2
+z = a + b
+print(z)
+counter = 100 # variable with a value assigned
+counter_plus = counter + 20.6 # variable with an expression assigned
+name = "John"
+list = [0, 1, 3]
+list_2 = ['John', 'Rambo']
+"""
+print('Counter:', counter)
+print('Counter + 20.6:', counter_plus)
+print("Name:",name)
+print("List:", list)
+print("List2:", list_2)
+"""
+name = "Rambo" #print("Reassign name:", name)
+
+# Python has an inbuilt inference system for determining the type of variable
+print(type(counter))
+print(type(counter_plus))
+print(type(name))
+print(type(list))
+print(type(list_2))
+print("++++++++++++++++")
+
+#Combining operation and type in one command
+print("Counter=", counter, "| type:", type(counter) )
+print("_______________")
+
+print("Counter:" ,str(counter) + " Type:",+ type(str(counter))  # another for getting operation as well as type

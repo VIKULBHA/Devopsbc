@@ -1,0 +1,11 @@
+# Arithmetic
+number = 100
+sum = number + 10
+print(sum)
+
+sub = number - 23
+print(sub)
+
+div = number / 5
+print(div, type(div))
+
