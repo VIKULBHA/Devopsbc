@@ -1,0 +1,15 @@
+result = True;
+cUpper = 'C';
+b = 100;
+s = 10000;
+i = 100000;
+x = 123657674387264758684554572348212589673973
+z = 2732446759745607378565632485568783407627368560745689645377456546769798990789789067864574643651
+print(type(result))
+print(type(b))
+print(type(s))
+print(type(i))
+print(type(x))
+print(type(z))
+
+print('value = ', z - x)

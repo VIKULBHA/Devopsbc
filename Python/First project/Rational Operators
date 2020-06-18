@@ -1,0 +1,10 @@
+# Equality Operator
+value = 100
+number = 50
+print(value == number) #false
+print(number == 50) #True
+#Diferential Operator
+print(value != number)  #True
+
+
+print("Y = ", value-number)
