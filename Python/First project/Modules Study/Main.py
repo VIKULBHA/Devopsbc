@@ -11,12 +11,12 @@
 # print(f)
 
 #_______________
-import BMIcalculator
-print(BMIcalculator.BMI(100, 2))
-print(BMIcalculator.bmi2(220, 77.8))
+# import BMIcalculator
+# print(BMIcalculator.BMI(100, 2))
+# print(BMIcalculator.bmi2(220, 77.8))
 
 import fibo
-from bmi_calculator import bmi
-f = fib(100)
+from BMIcalculator import BMI
+f = fibo.fib(100)
 print(f)
-print(bmi_calculator.bmi(100, 2))
+print(BMI(100, 2))
