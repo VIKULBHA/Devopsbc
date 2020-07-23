@@ -12,7 +12,7 @@
 
 #_______________
 # import BMIcalculator
-# print(BMIcalculator.BMI(100, 2))
+# print(BMIcalculator.BMI(120, 2))
 # print(BMIcalculator.bmi2(220, 77.8))
 
 import fibo
